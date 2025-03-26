@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background:red url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -15,8 +15,10 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
   padding-bottom: 40px;
+  background-color: rgb(201, 32, 122);
+  border: 1px solid black;
 }
 
 #content {
